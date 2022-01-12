@@ -1,0 +1,174 @@
+{
+    "customers": [
+        {
+            "id": 1,
+            "name": "Dion Stoade",
+            "address": "6866 4th Court",
+            "email": "dstoade0@cornell.edu"
+        },
+        {
+            "id": 2,
+            "name": "Windy Thorneloe",
+            "address": "59924 Beilfuss Center",
+            "email": "wthorneloe1@usa.gov"
+        },
+        {
+            "id": 3,
+            "name": "Hillie Phillpotts",
+            "address": "21 Straubel Point",
+            "email": "hphillpotts2@rakuten.co.jp"
+        },
+        {
+            "id": 4,
+            "name": "Jobye Danielou",
+            "address": "7 Pleasure Terrace",
+            "email": "jdanielou3@apple.com"
+        },
+        {
+            "id": 5,
+            "name": "Gabbie Schult",
+            "address": "46273 Oak Trail",
+            "email": "gschult4@tinyurl.com"
+        },
+        {
+            "id": 6,
+            "name": "Vasily Youdell",
+            "address": "0993 Gulseth Avenue",
+            "email": "vyoudell5@globo.com"
+        },
+        {
+            "id": 7,
+            "name": "Debra Blackhurst",
+            "address": "57305 Crowley Alley",
+            "email": "dblackhurst6@last.fm"
+        },
+        {
+            "id": 8,
+            "name": "Helenelizabeth Passfield",
+            "address": "02 Reinke Plaza",
+            "email": "hpassfield7@netvibes.com"
+        },
+        {
+            "id": 9,
+            "name": "Franchot Slator",
+            "address": "4930 Oneill Drive",
+            "email": "fslator8@51.la"
+        },
+        {
+            "id": 10,
+            "name": "Renaud Erbe",
+            "address": "30 Westridge Pass",
+            "email": "rerbe9@psu.edu"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Tom Schamberger",
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "name": "Rose Schmitt",
+            "locationId": 2
+        },
+        {
+            "id": 3,
+            "name": "Jury Byrd",
+            "locationId": 3
+        },
+        {
+            "id": 4,
+            "name": "Geoff Laundry",
+            "locationId": 2
+        }
+    ],
+    "purchases": [
+        {
+            "id": 1,
+            "customerId": 4,
+            "employeeId": 1,
+            "locationId": 1,
+            "productId": 2,
+            "purchaseDate": "2021-05-26"
+        },
+        {
+            "id": 2,
+            "customerId": 6,
+            "employeeId": 2,
+            "locationId": 3,
+            "productId": 4,
+            "purchaseDate": "2021-08-26"
+        },
+        {
+            "id": 3,
+            "customerId": 2,
+            "employeeId": 3,
+            "locationId": 2,
+            "productId": 3,
+            "purchaseDate": "2022-01-05"
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "address": "90618 Josianne Port",
+            "squareFootage": 1500,
+            "handicapAcc": true      
+        },
+        {
+            "id": 2,
+            "address": "63638 Jorge Vista",
+            "squareFootage": 3000,
+            "handicapAcc": false   
+        },
+        {
+            "id": 3,
+            "address": "50598 Durgan Track",
+            "squareFootage": 5000,
+            "handicapAcc": true 
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Hersheys Chocolate Bar",
+            "productTypeId": 1,
+            "price":  2.99    
+        },
+        {
+            "id": 2,
+            "name": "Snickers",
+            "productTypeId": 1,
+            "price": 1.49
+        },
+        {
+            "id": 3,
+            "name": "Almond Joy",
+            "productTypeId": 1,
+            "price": 3.69
+        },
+        {
+            "id,": 4,
+            "name": "Airheads Gummies",
+            "productTypeId": 2,
+            "price": 3.99
+        },
+        {
+            "id": 5,
+            "name": "Spaghetti Gummies",
+            "productTypeId": 2,
+            "price": 1.69
+        }
+    ],
+    "productType": [
+        {
+            "id": 1,
+            "type": "Chocolate"  
+        },
+        {
+            "id": 2,
+            "type": "Gummy"
+        }
+    ]
+}
