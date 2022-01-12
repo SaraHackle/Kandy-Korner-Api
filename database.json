@@ -156,10 +156,29 @@
         },
         {
             "id": 5,
-            "name": "Spaghetti Gummies",
-            "productTypeId": 2,
-            "price": 1.69
+            "name": "Spearmint Gum",
+            "productTypeId": 3,
+            "price": 0.99
+        },
+        {
+            "id": 6,
+            "name": "Bubbleyum",
+            "productTypeId": 3,
+            "price": 0.99
+        },
+        {
+            "id": 7,
+            "name": "Cream Soda",
+            "productTypeId": 4,
+            "price": 2.69
+        },
+        {
+            "id": 8,
+            "name": "Rootbeer",
+            "productTypeId": 4,
+            "price": 2.69
         }
+        
     ],
     "productType": [
         {
@@ -169,6 +188,15 @@
         {
             "id": 2,
             "type": "Gummy"
+        },
+        {
+            "id": 3,
+            "type": "Gum"
+        },
+        {
+            "id": 4,
+            "type": "Soda"
         }
+    
     ]
 }
